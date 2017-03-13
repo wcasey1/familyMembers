@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Jos",
+    "familyMember" : "Father",
+    "FamilyTree": {
+      "Position": ["Head"]
+    }
+  },
+  {
+    "name": "Nola",
+    "familyMember" : "Mother",
+    "FamilyTree": {
+      "position": ["Head"]
+    }
+  }
+  
+]
+//(got it from YouTube 2017)
