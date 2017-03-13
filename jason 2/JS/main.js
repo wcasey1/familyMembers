@@ -34,7 +34,7 @@ var htmlString = "";
 for ( i = 0; i <data.length; i++) {
 
         
-        htmlString += "<p>" + data[i].name + " is a " + data[i].FamilyMember + ".</p>";
+        htmlString += "<p>" + data[i].name + " is a " + data[i].familyMember + ".</p>";
 }
 FamilyTree.insertAdjacentHTML('beforeend', htmlString);
 }
