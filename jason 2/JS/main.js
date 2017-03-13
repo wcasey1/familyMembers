@@ -7,7 +7,7 @@ var btn = document.getElementById("btn");
 btn.addEventListener("click", function(){
 var ourRequest = new XMLHttpRequest();
 //we want to GET data these two arguments are to get and where from
-ourRequest.open("GET", "https://raw.githubusercontent.com/wcasey1/assignment3-json/master/jason/myFamily" + pageCounter + ".json");
+ourRequest.open("GET", "https://raw.githubusercontent.com/wcasey1/familyMembers/master/jason%202/myFamily_" + pageCounter + ".json");
 //ourRequest variable-telling it to load and what to do next i.e. parse the data onto the HTML page
 ourRequest.onload = function() {
   var ourData = JSON.parse(ourRequest.responseText);
